@@ -1,0 +1,25 @@
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+#search {
+
+text-align: center;
+margin: 0 auto;
+margin-bottom: 30px;
+margin-top: 30px;
+width: 60%;
+border: lightgray 2px solid;
+
+}
+
+
+.gallery {
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px 10px;
+}
