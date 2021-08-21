@@ -22,4 +22,5 @@ border: lightgray 2px solid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px 10px;
+    padding-bottom: 20px;
 }
