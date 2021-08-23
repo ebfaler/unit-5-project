@@ -15,13 +15,13 @@ const handleSearch = (event) =>  {
 
   const searchTerm = event.target.value.toLowerCase();
 
-  boxTexts.forEach(boxText => {
-    const text = boxText.getAttribute('data-caption').toLowerCase();
+  boxTexts.forEach(boxTexts => {
+    const text = boxTexts.getAttribute('data-caption').toLowerCase();
           
     if(text.includes(searchTerm)) {
-      boxText.style.display = "block";
+      boxTexts.parentElement.style.display = "block";
     } else {
-      boxText.style.display = "none";  
+      boxTexts.parentElement.style.display = "none";  
     }
   });
 
